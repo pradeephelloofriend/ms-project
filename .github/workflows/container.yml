@@ -1,6 +1,6 @@
 # @format
 
-name: deploy-container
+name: deploy-container2
 
 on:
   push:
