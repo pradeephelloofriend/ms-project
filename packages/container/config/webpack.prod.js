@@ -7,7 +7,7 @@ const prodConfig={
     mode:'production',
     output:{
         filename:'[name].[contenthash].js',
-        publicPatch:'/container/latest/'
+        publicPath:'/container/latest/'
     },
     /*devServer:{
         port:8080,
