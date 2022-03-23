@@ -14,7 +14,7 @@ const AuthApp = ({onSignIn}) => {
             }
             console.log('navigation markiting= ',nextPath);
           },
-          onSignIn
+          onSignIn,
         });
       history.listen(onParentNavigate)  
     },[]);
